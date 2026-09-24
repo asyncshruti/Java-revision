@@ -55,6 +55,8 @@ public class conditionalStatment {
             default:
                 System.out.println("Invalid Button");
         }
+
+        sc.close();
     }
 
 }
