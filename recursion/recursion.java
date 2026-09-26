@@ -12,6 +12,7 @@ public class recursion {
         
     }
     */
+   
     /* 
     //2.PRINT SUM OF 1ST N NATURAL NUMBER--
 
