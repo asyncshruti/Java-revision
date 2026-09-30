@@ -60,7 +60,7 @@ public class practice {
     */
 
 //4. return the circumference-----
-    /* 
+    
     public static double circumference(double radius){
         
         return 2* 3.14 *radius;
@@ -74,5 +74,5 @@ public class practice {
         
     }
 
-    */
+    
 }
