@@ -2,7 +2,7 @@ package OOPs;
 
 public class Final {
 
-/* 
+    /* 
     public static void main(String[] args) {
         
         Student s1 = new Student("Shruti", 21, 23456);
@@ -32,6 +32,7 @@ class Student {
         college = "IIT DELHI";
     }
  */
+/* 
     public static void main(String[] args) {
         Random1 r1 = new Random1();
         System.out.println(r1.PI);
@@ -51,4 +52,17 @@ class Random1 {
         this.PI = 3.14;
 
     }
+*/
+    public static void main(String[] args) {
+        System.out.println("Number of arguments are" + args.length);
+
+        for(int i = 0; i < args.length; i++) {
+            System.out.println("Argument " + i + "=" + args[i]);
+        }
+        //java Final input.txt output.txt
+        // java final
+    }
+    
 }
+
+
