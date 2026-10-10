@@ -1,5 +1,6 @@
 package OOPs;
 
+/* 
 public class constructors {
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -25,10 +26,11 @@ public class constructors {
         float-- 0.0
         boolean --false
         String-- null
-         */
+ 
+    
+
     }
 }
-
 class Student {
     String name; // infor/char/dat----->instance variables
     int age;
@@ -57,3 +59,27 @@ class Student {
     // }
 
 }
+*/
+
+//NON PARAMETERISED
+class Student {
+    String name;
+    int age;
+
+    Student() {
+        System.out.println("constructor Called");
+    }
+
+}
+//PARAMETERISED--
+class Student1 {
+    String name;
+    int age;
+
+    Student1(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+}
+
