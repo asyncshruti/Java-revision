@@ -12,8 +12,8 @@ public class RopeCutting {
             return -1;
         }
 
-        int result = Math.max(maxPiece((n - a), a, b, c), Math.max(maxPiece((n - b), a, b, c), maxPiece((n - c), a, b, c)));
-
+       
+    int result = Math.max(maxPiece((n - a), a, b, c), Math.max(maxPiece((n - b), a, b, c), maxPiece((n - c), a, b, c)));
         if (result == -1) {
             return -1;
         }
