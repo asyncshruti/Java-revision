@@ -2,6 +2,8 @@ package P04_recursion;
 
 import java.util.Scanner;
 
+// print subset of string
+
 public class subsetString {
     public static void subsets(String s, String current, int i) {
         if (i == s.length()) {
