@@ -16,16 +16,34 @@ public class ReverseAnArray {
 
     private static int[] reverseAnArray(int[] nums) {
 
-        int low = 0;
-        int high = nums.length - 1;
+        // --------------------------- while loops ---------------------------------- //
+        // int low = 0;
+        // int high = nums.length - 1;
         
+        // while (low < high) {
+            //     int temp = nums[low];
+            //     nums[low] = nums[high];
+            //     nums[high] = temp;
+            
+            //     low++;
+            //     high--;
+            // }
+            
+        // --------------------------- while loops ---------------------------------- //
+        // for (int low = 0, high = nums.length -1; low < high; low++, high--) {
+        //     int temp = nums[low];
+        //     nums[low] = nums[high];
+        //     nums[high] = temp;
+        // }
 
-        while (low < high) {
-            int temp = nums[low];
-            nums[low] = nums[high];
-            nums[high] = temp;
+
+        // ------------------------------- new Array ----------------------------------- //
+        int[] newArr = new int[nums.length];
+
+        for (int i = 0, j = nums.length - 1; i < nums.length; i++, j--) {
+            newArr[i] = nums[j];
         }
         
-        return nums;
+        return newArr;
     }
 }
