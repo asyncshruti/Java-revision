@@ -34,5 +34,4 @@ public class ArrayListInJava {
 
         return shruti;
     }
-    
 }
